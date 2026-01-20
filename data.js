@@ -407,8 +407,8 @@ const ALUMNI_DATA = [
   {
     "company": "HEMA Endüstri A.Ş.",
     "province": "Tekirdağ",
-    "lat": 41.1540393,
-    "lng": 27.2302308,
+    "lat": 41.2943223,
+    "lng": 27.9734612,
     "status": "Alumni",
     "contact": "https://www.hemaendustri.com/",
     "field": "Tarım Makinaları"
