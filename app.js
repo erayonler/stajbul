@@ -230,10 +230,19 @@ function setupEventListeners() {
 
 // Global available function for inline onclick
 window.focusOnMap = (lat, lng) => {
-    map.flyTo([lat, lng], 14, {
-        animate: true,
-        duration: 1.5
+    // Scroll to map section first
+    document.querySelector('.map-container').scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
     });
+
+    // Then fly to the location
+    setTimeout(() => {
+        map.flyTo([lat, lng], 14, {
+            animate: true,
+            duration: 1.5
+        });
+    }, 300);
 };
 
 // Reset map and filters
