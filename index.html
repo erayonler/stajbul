@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StajBul - Staj Yeri Bulucu</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Staj<span class="highlight">Bul</span></h1>
+            </div>
+            <p class="subtitle">Mezunlarımızın staj yaptığı firmalar arasından staj yerini bul.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Arama & Filtre Bölümü -->
+        <section class="controls">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Firma, şehir veya alan ara...">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="search-icon">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+            <div class="filters">
+                <select id="cityFilter">
+                    <option value="">Tüm İller</option>
+                    <!-- JS ile doldurulacak -->
+                </select>
+                <select id="fieldFilter">
+                    <option value="">Tüm Alanlar</option>
+                    <!-- JS ile doldurulacak -->
+                </select>
+            </div>
+        </section>
+
+        <!-- Harita Bölümü -->
+        <section class="map-container">
+            <div id="map"></div>
+        </section>
+
+        <!-- İstatistik Bölümü -->
+        <section class="stats-bar">
+            <div class="stats-left">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalCompanies">0</span>
+                    <span class="stat-label">Firma</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="locationsCount">0</span>
+                    <span class="stat-label">Şehir</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="fieldsCount">0</span>
+                    <span class="stat-label">Alan</span>
+                </div>
+            </div>
+            <div class="stats-right">
+                <div class="stat-item">
+                    <span class="stat-number">06/07/2026 - 17/08/2026</span>
+                    <span class="stat-label">Staj Tarihleri</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Liste Bölümleri -->
+        <div class="results-wrapper">
+            <!-- Staj Yerleri (Sol) -->
+            <section class="results-section">
+                <h2>Staj Yerleri</h2>
+                <p class="section-desc">Mezunlarımızın staj yaptığı firmalar</p>
+                <div id="companyList" class="company-grid">
+                    <!-- Kartlar buraya eklenecek -->
+                </div>
+            </section>
+
+            <!-- Stajyer Arayan Firmalar (Sağ) -->
+            <section class="hiring-section">
+                <h2>Stajyer Arayan Firmalar</h2>
+                <p class="section-desc">Aktif stajyer ilanları</p>
+                <div id="hiringList" class="company-grid">
+                    <!-- Kartlar buraya eklenecek -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2026 <a href="https://ziraat-bm.web.nku.edu.tr/" target="_blank">TNKÜ Biyosistem Mühendisliği Bölüm Staj Portalı</a></p>
+            <p>Engineered by <a href="https://www.linkedin.com/in/erayonler/" target="_blank">Dr.Eray Önler</a></p>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+    <!-- Data -->
+    <script src="data.js"></script>
+    <script src="hiring-companies.js"></script>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
