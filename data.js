@@ -947,8 +947,8 @@ const ALUMNI_DATA = [
   {
     "company": "Türkay Tarım Makinaları",
     "province": "İzmir",
-    "lat": 40.9722092,
-    "lng": 25.1044782,
+    "lat": 38.313169,
+    "lng": 27.1711077,
     "status": "Alumni",
     "contact": "http://www.turkaytarim.com.tr/",
     "field": "Tarım Makinaları"
