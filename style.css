@@ -370,6 +370,26 @@ body {
     text-decoration: underline;
 }
 
+.popup-internship {
+    margin: 6px 0;
+    padding: 4px 0;
+    border-top: 1px dashed #e2e8f0;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+.popup-intern-total {
+    font-weight: 600;
+    color: #2563eb;
+    display: block;
+}
+
+.popup-intern-years {
+    font-size: 11px;
+    color: #64748b;
+    display: block;
+    margin-top: 2px;
+}
+
 /* Override default MarkerCluster styles */
 .marker-cluster-small,
 .marker-cluster-medium,
@@ -592,4 +612,183 @@ body {
 
 .app-footer a:hover {
     text-decoration: underline;
+}
+
+/* Internship History Styles */
+.internship-history {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border);
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.history-title {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.total-interns {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.total-interns svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Year Histogram */
+.year-histogram {
+    display: flex;
+    gap: 1rem;
+}
+
+.year-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+}
+
+.year-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.year-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    width: 32px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.people-icons {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.person-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--primary);
+    opacity: 0.85;
+}
+
+.person-icon.highlight {
+    color: #10b981;
+    opacity: 1;
+}
+
+/* Compact version for hiring section */
+.hiring-section .internship-history {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.hiring-section .year-histogram {
+    gap: 0.25rem;
+}
+
+.hiring-section .person-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.hiring-section .year-label {
+    font-size: 0.65rem;
+    width: 28px;
+}
+
+/* No history badge */
+.no-history {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--bg-color);
+    border-radius: 6px;
+}
+
+/* Load More Trigger */
+.load-more-trigger {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.load-more-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.load-more-text {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.load-more-spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Scroll Indicator */
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    color: var(--primary);
+    margin-top: 1rem;
+}
+
+.scroll-indicator.hidden {
+    display: none;
+}
+
+.scroll-indicator svg {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.scroll-indicator span {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(8px);
+    }
 }
