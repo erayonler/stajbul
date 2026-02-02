@@ -2028,8 +2028,8 @@ const ALUMNI_DATA = [
   {
     "company": "Veteriner Kontrol Araştırma Enstitüsü",
     "province": "Ankara",
-    "lat": 39.7016474,
-    "lng": 27.3849944,
+    "lat": 39.1608839,
+    "lng": 30.5669614,
     "status": "Alumni",
     "contact": "https://vetkontrol.tarimorman.gov.tr/merkez",
     "field": "Biyosistem",
