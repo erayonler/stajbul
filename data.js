@@ -70,9 +70,10 @@ const ALUMNI_DATA = [
     "field": "Tarım Makinaları",
     "yearlyData": {
       "years": {
-        "2016": 2
+        "2016": 2,
+        "2026": 1
       },
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -115,9 +116,10 @@ const ALUMNI_DATA = [
     "field": "Tarım Makinaları",
     "yearlyData": {
       "years": {
-        "2016": 1
+        "2016": 1,
+        "2026": 1
       },
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -311,9 +313,10 @@ const ALUMNI_DATA = [
     "field": "Tarım Makinaları",
     "yearlyData": {
       "years": {
-        "2014": 1
+        "2014": 1,
+        "2026": 1
       },
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -417,9 +420,10 @@ const ALUMNI_DATA = [
     "yearlyData": {
       "years": {
         "2017": 1,
-        "2025": 2
+        "2025": 2,
+        "2026": 1
       },
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -538,9 +542,10 @@ const ALUMNI_DATA = [
     "field": "Tarımsal Sulama",
     "yearlyData": {
       "years": {
-        "2015": 3
+        "2015": 3,
+        "2026": 2
       },
-      "total": 3
+      "total": 5
     }
   },
   {
@@ -730,9 +735,10 @@ const ALUMNI_DATA = [
     "yearlyData": {
       "years": {
         "2016": 3,
-        "2017": 1
+        "2017": 1,
+        "2026": 1
       },
-      "total": 4
+      "total": 5
     }
   },
   {
@@ -970,9 +976,10 @@ const ALUMNI_DATA = [
         "2016": 1,
         "2017": 2,
         "2018": 1,
-        "2023": 2
+        "2023": 2,
+        "2026": 1
       },
-      "total": 8
+      "total": 9
     }
   },
   {
@@ -1039,7 +1046,7 @@ const ALUMNI_DATA = [
   },
   {
     "company": "Marmarabirlik",
-    "province": "",
+    "province": "Bursa",
     "lat": 40.2223699,
     "lng": 28.7684883,
     "status": "Alumni",
@@ -1366,9 +1373,10 @@ const ALUMNI_DATA = [
     "field": "Tarım Makinaları",
     "yearlyData": {
       "years": {
-        "2018": 1
+        "2018": 1,
+        "2026": 1
       },
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -1428,9 +1436,10 @@ const ALUMNI_DATA = [
     "field": "Biyosistem",
     "yearlyData": {
       "years": {
-        "2025": 1
+        "2025": 1,
+        "2026": 1
       },
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -1476,9 +1485,10 @@ const ALUMNI_DATA = [
         "2014": 1,
         "2019": 1,
         "2022": 4,
-        "2023": 2
+        "2023": 2,
+        "2026": 2
       },
-      "total": 8
+      "total": 10
     }
   },
   {
@@ -1561,9 +1571,10 @@ const ALUMNI_DATA = [
         "2019": 4,
         "2022": 1,
         "2023": 1,
-        "2024": 1
+        "2024": 1,
+        "2026": 1
       },
-      "total": 21
+      "total": 22
     }
   },
   {
@@ -1794,9 +1805,10 @@ const ALUMNI_DATA = [
     "yearlyData": {
       "years": {
         "2018": 2,
-        "2022": 1
+        "2022": 1,
+        "2026": 1
       },
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -1825,9 +1837,10 @@ const ALUMNI_DATA = [
     "field": "Tarım Makinaları",
     "yearlyData": {
       "years": {
-        "2022": 2
+        "2022": 2,
+        "2026": 1
       },
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -2096,6 +2109,306 @@ const ALUMNI_DATA = [
     "yearlyData": {
       "years": {
         "2023": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Tekirdağ Önder Çiftçi Danışmanlık Derneği",
+    "province": "Tekirdağ",
+    "lat": 40.9738388,
+    "lng": 27.4419384,
+    "status": "Alumni",
+    "contact": "https://onderciftci.com.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 2
+      },
+      "total": 2
+    }
+  },
+  {
+    "company": "Baydemirler Makine ve İnşaat San. Tic. Ltd. Şti.",
+    "province": "Tekirdağ",
+    "lat": 41.1722,
+    "lng": 27.5005,
+    "status": "Alumni",
+    "contact": "https://www.baydemirlermakine.com.tr/",
+    "field": "Tarım Makinaları",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Süleymanpaşa Belediyesi",
+    "province": "Tekirdağ",
+    "lat": 40.9786,
+    "lng": 27.511,
+    "status": "Alumni",
+    "contact": "https://www.suleymanpasa.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Smart Güneş Teknolojileri",
+    "province": "İstanbul",
+    "lat": 41.0935,
+    "lng": 29.091,
+    "status": "Alumni",
+    "contact": "https://www.smartsolar.com.tr/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 2
+      },
+      "total": 2
+    }
+  },
+  {
+    "company": "Asfen Makina ve Tarım Aletleri A.Ş.",
+    "province": "İstanbul",
+    "lat": 41.0185,
+    "lng": 28.9145,
+    "status": "Alumni",
+    "contact": "https://www.asfenmakina.com.tr/",
+    "field": "Tarım Makinaları",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Büyükçekmece Belediyesi",
+    "province": "İstanbul",
+    "lat": 41.0205,
+    "lng": 28.585,
+    "status": "Alumni",
+    "contact": "https://www.buyukcekmece.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Erdem Mühendislik Elektrik San. ve Tic. Ltd. Şti.",
+    "province": "İstanbul",
+    "lat": 41.018,
+    "lng": 29.043,
+    "status": "Alumni",
+    "contact": "http://www.erdemmuhendislik.com.tr/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Esenyurt Belediyesi",
+    "province": "İstanbul",
+    "lat": 41.034,
+    "lng": 28.68,
+    "status": "Alumni",
+    "contact": "https://www.esenyurt.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Kazancı Çevre",
+    "province": "İstanbul",
+    "lat": 40.996,
+    "lng": 29.037,
+    "status": "Alumni",
+    "contact": "https://www.kazancionline.com/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Petravita Tıbbi Bitki Ürünleri Tarım Peyzaj Eğitim Hizmetleri",
+    "province": "İstanbul",
+    "lat": 41.019,
+    "lng": 28.572,
+    "status": "Alumni",
+    "contact": "https://petravita.com/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Yıldız Teknik Üniversitesi",
+    "province": "İstanbul",
+    "lat": 41.0263,
+    "lng": 28.8899,
+    "status": "Alumni",
+    "contact": "https://www.yildiz.edu.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Çekmeköy Belediyesi",
+    "province": "İstanbul",
+    "lat": 41.033,
+    "lng": 29.179,
+    "status": "Alumni",
+    "contact": "https://www.cekmekoy.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Eksim Enerji A.Ş.",
+    "province": "İstanbul",
+    "lat": 41.0215,
+    "lng": 29.044,
+    "status": "Alumni",
+    "contact": "https://www.eksim.com.tr/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Pınarhisar Belediyesi",
+    "province": "Kırklareli",
+    "lat": 41.625,
+    "lng": 27.521,
+    "status": "Alumni",
+    "contact": "https://www.pinarhisar.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "OTM Enerji",
+    "province": "Bursa",
+    "lat": 40.2175,
+    "lng": 28.985,
+    "status": "Alumni",
+    "contact": "https://otmenerji.com/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Ateş Çelik İnş. Taah. Proje Müh. San. ve Tic. A.Ş.",
+    "province": "İzmir",
+    "lat": 39.049,
+    "lng": 27.087,
+    "status": "Alumni",
+    "contact": "http://www.atescelik.com/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Kon-Tek Kontrol Teknolojileri ve Otomasyon San. Tic. A.Ş.",
+    "province": "İzmir",
+    "lat": 38.442,
+    "lng": 27.244,
+    "status": "Alumni",
+    "contact": "http://www.kontekotomasyon.com.tr/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Önallar Tarım Makineleri A.Ş.",
+    "province": "Konya",
+    "lat": 38.045,
+    "lng": 32.575,
+    "status": "Alumni",
+    "contact": "",
+    "field": "Tarım Makinaları",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Menteşe Belediyesi",
+    "province": "Muğla",
+    "lat": 37.2155,
+    "lng": 28.3634,
+    "status": "Alumni",
+    "contact": "https://www.mentese.bel.tr/",
+    "field": "Biyosistem",
+    "yearlyData": {
+      "years": {
+        "2026": 1
+      },
+      "total": 1
+    }
+  },
+  {
+    "company": "Solenser Enerji San. ve Tic. Ltd. Şti.",
+    "province": "Trabzon",
+    "lat": 40.996,
+    "lng": 39.776,
+    "status": "Alumni",
+    "contact": "https://www.solenser.com/",
+    "field": "Tarımsal Enerji",
+    "yearlyData": {
+      "years": {
+        "2026": 1
       },
       "total": 1
     }
